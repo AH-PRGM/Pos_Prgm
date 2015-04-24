@@ -1,0 +1,9 @@
+1. LP_Carrier_Control에서 Port_Control IO에 Load Write
+
+2. LP_Carrier_Control에서는 바로 설비상태 체크하여 ROBOT_MAPPING Function 실행
+
+
+2. Simulation에서 Port_Control IO Read하여 Port_Status IO에 Run Write
+
+3. Simulation에서 3초 대기 후 Door_Status IO에 Open, Port_Status IO에 Idle Write
+
